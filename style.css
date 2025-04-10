@@ -8,13 +8,13 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient(to bottom right, #3affde 0% , #5b9dff 40%);
+    background-image: linear-gradient(to bottom right, #f97070 0% , #e2a9a6 40%);
     animation: float 6s infinite alternate;
 }
 
 section{
     padding: 45PX;
-    background-color: white;
+    background-color: rgb(141, 88, 88);
     width: 500PX;
     border-radius: 15px;
     display: flex;
@@ -23,18 +23,18 @@ section{
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    box-shadow: 2px 15px 20px , rgba(61, 61, 61, .4);
+    box-shadow: 2px 15px 20px , rgba(178, 142, 142, 0.4);
 
 }
 
 header img{
     width: 200px;
-    height: 20px;
+    height: 200px;
    
 }
 
 header h3{
-    color: #63a0bc;
+    color: #f69191;
     font-size: 1.35rem;
 }
 
@@ -46,12 +46,12 @@ main{
 }
 
 main a{
-    background: #63a0bc;
+    background: #e69292;
     padding: 15px 0;
     text-decoration: none;
-    color: white;
+    color: rgb(10, 4, 4);
     border-radius: 5px;
-    box-shadow: 10px 10px #eeaeca;
+    box-shadow: 10px 10px #edd3df;
     transition: all .5s ease;
 }
 
@@ -63,7 +63,7 @@ main a:hover{
 footer{
     position: absolute;
     bottom: 10px;
-    color: white
+    color: rgb(76, 40, 40)
 }
 
 @media (max-width: 520px){
